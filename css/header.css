@@ -11,7 +11,6 @@
     align-items: center;
     position: fixed;
     z-index:15;
-    outline:solid red;
     display:flex;
     justify-content:space-between;
     flex-wrap:wrap;
@@ -23,11 +22,9 @@
     align-items: center;
     height: 50px;
     width: 450px;
-    outline:solid red;
 }
 
 .navegacion ul li{
-    outline:solid green;
     list-style: none;
     font-size: 30px;
     font-family: helvetica;
@@ -42,7 +39,7 @@
     cursor:pointer;
 }
 
-.navegacion ul li a{
+.navegacion ul li h4{
     text-decoration: none;
     color:var(--color-letra);
     font-size: 18px;
@@ -74,8 +71,10 @@ header{
 .logo{
     display:flex;
     align-items:center;
-    outline:solid red;
     height:50px;
+}
+.logo:hover{
+    cursor:pointer;
 }
 
 .headerContent h2:nth-child(1){
@@ -101,6 +100,7 @@ header{
 .headerContent{
     height:auto;
     width: 80%;
+    max-width:900px;
     position: relative;
     font-family: Helvetica;
     display: flex;
@@ -108,12 +108,10 @@ header{
     justify-content:space-between;
     align-items:center;
     z-index:5;
-    outline:solid yellow;
     box-sizing:border-box;
 }
 
 .titleContainer{
-    outline:solid purple;
     width:100%;
     height:200px;
     display:flex;

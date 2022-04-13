@@ -26,3 +26,20 @@
 .transitionInit{
     transform:translateX(10000px);
 }
+.transitionReverseInit{
+    transform:translateX(-10000px);
+}
+.btnGoUp{
+    height:60px;
+    width:60px;
+    position: fixed;
+    z-index:50;
+    right:13px;
+    bottom:13px;
+    background-color:var(--color-letra);
+    background-image: url("../icons/go-up-icon.png");
+    background-size:170%;
+    background-position:center;
+    border:none;
+    display:none;
+}

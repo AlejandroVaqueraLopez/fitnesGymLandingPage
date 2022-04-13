@@ -16,12 +16,13 @@ window.addEventListener("resize",()=>{
 	}else{
 		navbarList.style.display = "none";
 	}
-})
+});
 btnMenu.addEventListener("click",()=>{
 	navbarToggle = !navbarToggle;
+	console.log(navbarToggle);
 	if(navbarToggle == true){
 		navbarList.style.display = "flex";
 	}else{
 		navbarList.style.display = "none";
 	}
-})
+});

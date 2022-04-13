@@ -75,18 +75,17 @@
     
     .section-7 div{
         margin-right:10%;
-        outline:solid red;
         width:250px;
     }
 
     /*footer*/
-    .caja-2{
+    .box-2{
         width:80%;
     }
-    .caja-1{
+    .box-1{
         width:80%;
     }
-    .caja-1 div:last-of-type a{
+    .box-1 div:last-of-type a{
         height:30px;
         width:30px;
     }

@@ -12,75 +12,74 @@ footer{
     padding:120px 0px;
 }
 
-.caja-1{
+.box-1{
     width: 50%;
     max-width:600px;
     height:auto;
-    outline:solid red;
     font-family:  'Anton', sans-serif;
     padding:15px 0px;
 }
-.caja-1 div:first-of-type h2{
+.box-1 div:first-of-type h2{
     font-size:20px;
     margin-bottom:10px;
 }
 
-.caja-1 div:first-of-type p{
+.box-1 div:first-of-type p{
     font-size:18px;
     margin-bottom:20px;
 }
 
-.caja-1 div:last-of-type{
+.box-1 div:last-of-type{
     height: auto;
     display:flex;
     align-items:flex-end;
     justify-content:flex-start;
 }
-.caja-1 div:last-of-type a{
+.box-1 div:last-of-type a{
     height:40px;
     width:40px;
     margin-right:12px;
 }
 
-.caja-1 div:last-of-type img{
+.box-1 div:last-of-type img{
     height: 100%;
     border-radius:5px;
 }
 
-.caja-1 div:last-of-type img:hover{
+.box-1 div:last-of-type img:hover{
     outline:solid var(--color-letra);
 }
 
-.caja-2{
+.box-2{
     width: 40%;
     max-width:600px;
     height: auto;
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-evenly;
-    outline:solid red;
+    justify-content: flex-start;
     padding:15px 0px;
     font-family:  'Anton', sans-serif;
 }
 
-.caja-2 div{
+.box-2 div{
     width: 80px;
     height: auto;
+    margin-right:12px;
 }
 
-.caja-2 div h2{
+.box-2 div h2{
     font-size:20px;
     margin-bottom:10px;
 }
 
-.caja-2 div h2,.caja-1 div:last-of-type a{
+.box-2 div h2,.caja-1 div:last-of-type a{
     line-height: 22px;
 }
-.caja-2 div a{
+.box-2 div a{
     text-decoration:none;
-    color:var(--font-color);
+    color:#fff;
 }
-.caja-2 div a:hover{
-    text-decoration:underline;
+.box-2 div a:hover{
+    color:var(--color-letra);
 }
 

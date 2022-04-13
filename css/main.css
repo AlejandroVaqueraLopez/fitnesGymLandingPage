@@ -24,7 +24,6 @@ main{
     width: 80%;
     max-width:500px;
     text-align: center;
-    outline:solid yellow;
 }
 
 .section-1 div h2{
@@ -57,7 +56,6 @@ main{
     height:auto;
     width: 280px;
     color:#fff;
-    outline:solid yellow;
     margin:10px 10px;
 }
 
@@ -89,9 +87,9 @@ main{
     align-items:center;
 }
 .section-3 .div-1{
-    outline:solid red;
     height: auto;
     width: 80%;
+    max-width:600px;
     text-align: center;
     display:flex;
     flex-direction:column;
@@ -101,7 +99,6 @@ main{
 }
 .section-3 .div-1 h2{
     width: 100%;
-    outline:solid yellow;
     margin-bottom:10px;
 }
 .section-3 .div-1 p{
@@ -109,11 +106,9 @@ main{
     font-size:18px;
     font-weight: bold;
     line-height: 30px;
-    outline:solid yellow;
 }
 
 .section-3 .div-2{
-    outline:solid green;
     min-height: 350px;
     height:auto;
     width: 80%;
@@ -172,7 +167,6 @@ main{
     max-width:600px;
     height: auto;
     text-align:center;
-    outline:solid red;
     margin-bottom:80px;
     font-family:  'Anton', sans-serif;
 }
@@ -194,7 +188,6 @@ main{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    outline:solid red;
 }
 
 .section-4 .last div{
@@ -203,7 +196,6 @@ main{
     display: flex;
     flex-direction:column;
     align-items: center;
-    outline:solid purple;
     margin:10px 0px;
 }
 
@@ -250,7 +242,6 @@ main{
     height: auto;
     width: 80%;
     max-width:600px;
-    outline:solid yellow;
     display: flex;
     flex-direction:column;
     align-items:center;
@@ -288,13 +279,11 @@ main{
     flex-direction:column;
     align-items:center;
     justify-content: center;
-    outline:solid red;
 }
 
 .section-6 div:first-of-type h2, .section-6 div:first-of-type p{
     width: 65%;
     height: auto;
-    outline:solid red;
     min-width: 200px;
     font-family:  'Anton', sans-serif;
 }
@@ -405,7 +394,6 @@ main{
     font-size:13px;
     text-align:center;
     line-height: 30px;
-    outline:solid red;
     margin:10px;
 }
 
@@ -429,7 +417,6 @@ main{
     max-width:600px;
     text-align: center;
     color:var(--color-letra);
-    outline:solid red;
     font-family:  'Anton', sans-serif;
 }
 
