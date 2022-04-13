@@ -1,0 +1,443 @@
+/*section no 1*/
+main{
+    overflow-x:hidden;
+}
+.section-1{
+    background: #000;
+    min-height:400px;
+    height: auto;
+    width: 100%;
+    color:var(--color-letra);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding:120px 0px;
+}
+
+.section-1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    min-height: 120px;
+    height:auto;
+    width: 80%;
+    max-width:500px;
+    text-align: center;
+    outline:solid yellow;
+}
+
+.section-1 div h2{
+    font-size:28px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+
+.section-1 div p{
+    font-size: 18px;
+    font-family: 'Anton', sans-serif;
+    margin-top:20px;
+}
+
+/*section no 2*/
+.section-2{
+    min-height:400px;
+    height: auto;
+    width: 100%;
+    background: #141414;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:120px 0px;
+    box-sizing:border-box;
+}
+
+.section-2 div{
+    height:auto;
+    width: 280px;
+    color:#fff;
+    outline:solid yellow;
+    margin:10px 10px;
+}
+
+.section-2 div h3{
+    padding-bottom: 10px;
+    font-family:  'Anton', sans-serif;
+    font-size:18px;
+    text-align:center;
+}
+
+.section-2 div p{
+    font-size: 15px;
+    font-family: 'Anton', sans-serif;
+    text-align:center;
+}
+
+/*section no 3*/
+.section-3{
+    background-image: url(../image/bg-priorities.jpg);
+    background-size:cover;
+    background-position:right;
+    min-height: 800px;
+    height:auto;
+    width: 100%;
+    padding:120px 0px;
+    box-sizing:border-box;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.section-3 .div-1{
+    outline:solid red;
+    height: auto;
+    width: 80%;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-family:  'Anton', sans-serif;
+    color:#fff;
+}
+.section-3 .div-1 h2{
+    width: 100%;
+    outline:solid yellow;
+    margin-bottom:10px;
+}
+.section-3 .div-1 p{
+    width: 100%;
+    font-size:18px;
+    font-weight: bold;
+    line-height: 30px;
+    outline:solid yellow;
+}
+
+.section-3 .div-2{
+    outline:solid green;
+    min-height: 350px;
+    height:auto;
+    width: 80%;
+    margin-top:80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing:border-box;
+}
+
+.div-2 div{
+    background: #171717;
+    height:250px;
+    width: 340px;
+    opacity: .7;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom: 2px solid #000;
+    margin:20px;
+    padding:10px 5px;
+    box-sizing:border-box;
+}
+.div-2 div h2:first-of-type{
+    font-size:15px;
+    font-family:  'Anton', sans-serif;
+}
+
+.div-2 div i{
+    text-align: center;
+}
+
+.div-2 div span{
+    text-align: center;
+}
+
+.div-2 div span h3{
+    font-size:15px;
+}
+
+/*section no 4*/
+.section-4{
+    height:auto;
+    background: #000;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:120px 0px;
+}
+.section-4 .first{
+    width: 80%;
+    max-width:600px;
+    height: auto;
+    text-align:center;
+    outline:solid red;
+    margin-bottom:80px;
+    font-family:  'Anton', sans-serif;
+}
+
+.section-4 .first h2{
+    font-size:28px;
+    color:var(--color-letra);
+}
+
+.section-4 .first p{
+    font-size:18px;
+    color:var(--color-letra);
+    margin-top:25px;
+}
+
+.section-4 .last{
+    height: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    outline:solid red;
+}
+
+.section-4 .last div{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    outline:solid purple;
+    margin:10px 0px;
+}
+
+.section-4 .last div:first-of-type img{
+    width: 70px;
+    height: 120px;
+}
+.section-4 .last div:nth-child(2) img{
+    width: 112px;
+    height: 120px;
+}
+.section-4 .last div:last-of-type img{
+    width: 95px;
+    height: 110px;
+}
+
+.section-4 .last div h2{
+    margin-top:35px;
+    color: #fff;
+    font-family:  'Anton', sans-serif;
+}
+
+.section-4 .last div p{
+    margin-top:35px;
+    text-align: center;
+    color: #fff;
+    font-family:  'Anton', sans-serif;
+}
+
+
+/*section no 5*/
+.section-5{
+    background: #141414;
+    height:auto;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:120px 0px;
+    box-sizing:border-box;
+}
+
+.section-5 div{
+    height: auto;
+    width: 80%;
+    max-width:600px;
+    outline:solid yellow;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    text-align: center;
+}
+
+.section-5 div p, .section-5 div h2{
+    color:var(--color-letra);
+    font-family:  'Anton', sans-serif;
+}
+.section-5 div p{
+    font-size:17px;
+    line-height:30px;
+}
+
+.section-5 div h2{
+    font-size:20px;
+    font-family:  'Anton', sans-serif;
+    margin-top:15px;
+}
+
+/*section-6//////////////////////*/
+.section-6{
+    height: 650px;
+    width: 100%;
+    background: #000;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.section-6 div:first-of-type{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    outline:solid red;
+}
+
+.section-6 div:first-of-type h2, .section-6 div:first-of-type p{
+    width: 65%;
+    height: auto;
+    outline:solid red;
+    min-width: 200px;
+    font-family:  'Anton', sans-serif;
+}
+.section-6 div:first-of-type h2{
+    font-size:35px;
+    font-family:  'Anton', sans-serif;
+    color:var(--color-letra);
+    margin-bottom:20px;
+    padding:0px;
+}
+
+.section-6 div:first-of-type p{
+    font-size:20px;
+    color:var(--color-letra);
+}
+
+.section-6 div:last-of-type{
+    height: 100%;
+    width: 50%;
+    min-width: 50%;
+    margin:0 ;
+    padding:0 ;
+}
+
+.section-6 div:last-of-type img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    margin:0 !important;
+    padding:0 !important;
+}
+
+/*section no 7*/
+.section-7{
+    min-height: 800px;
+    height:auto;
+    width: 100%;
+    background-image: url('../image/bg-buy.jpg');
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding:120px 0px;
+}
+
+.section-7 div{
+    width:300px;
+    height: auto;
+    margin-right:80px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    font-family:  'Anton', sans-serif;
+}
+
+.section-7 div h2{
+    font-size:50px;
+    text-align: right;
+    margin-top:20px;
+    color:#fff;
+}
+
+.section-7 div p{
+    text-align: right;
+    margin-top:20px;
+    font-size:18px;
+    color:#fff;
+}
+
+.section-7 div input{
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    margin-top:45px;
+    font-family:  'Anton', sans-serif;
+    opacity: .8;
+    border-style: none;
+}
+
+.section-7 div input:active{
+    cursor: pointer;
+    background: #3e3e3e;
+}
+
+/*section no 8*/
+.section-8{
+    min-height: 200px;
+    height:auto;
+    background: #141414;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:120px 0px;
+    font-family:  'Anton', sans-serif;
+}
+
+.section-8 div{
+    height:40%;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    color:#fff;
+    font-size:13px;
+    text-align:center;
+    line-height: 30px;
+    outline:solid red;
+    margin:10px;
+}
+
+/*section no 9*/
+.section-9{
+    background:#000;
+    display: flex;
+    align-items:center;
+    height:auto;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:120px 0px;
+    box-sizing:border-box;
+}
+
+.section-9 div{
+    height: auto;
+    width: 80%;
+    max-width:600px;
+    text-align: center;
+    color:var(--color-letra);
+    outline:solid red;
+    font-family:  'Anton', sans-serif;
+}
+
+.section-9 div p{
+    font-size:20px;
+}
+.section-9 div h2{
+    font-size:18px;
+    margin-top:20px;
+}
+

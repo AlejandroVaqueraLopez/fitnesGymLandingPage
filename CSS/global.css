@@ -1,0 +1,28 @@
+/*reset styles*/
+*,img{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*variables*/
+:root{
+    --color-letra:#04b9f4;
+}
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.btn{
+    border-radius:20px;
+    border-style: none;
+    font-size:22px;
+    color:var(--color-letra);
+    font-weight: bold;
+}
+.btn:hover{
+    cursor:pointer;
+}
+.transitionTiming{
+    transition:transform 0.5s cubic-bezier(0,.53,0,1.02);
+}
+.transitionInit{
+    transform:translateX(10000px);
+}
