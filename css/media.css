@@ -90,3 +90,10 @@
         width:30px;
     }
 }
+/*Portrait mobile position*/
+@media only screen and (max-height:400px){
+    .headerContent h2:nth-child(1),.headerContent h2:nth-child(2){
+        top:90px;
+        font-size:80px;
+    }
+}
